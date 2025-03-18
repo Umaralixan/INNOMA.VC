@@ -1,0 +1,71 @@
+.intiro {
+  max-width: 1130px;
+  height: 500px;
+  margin: 120px auto;
+}
+.intiro__title {
+  max-width: 769px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 59.5px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #fff;
+}
+.intiro__text {
+  max-width: 674px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 80px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+.bolt {
+  overflow: hidden;
+  display: none;
+}
+.intiro__btn {
+  width: 219px;
+  height: 80px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(276.41deg, #016ca8 -7%, #61b5e4 77.16%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+@media (max-width: 700px) {
+  .intiro__title {
+    text-align: center;
+    width: 640px;
+  }
+  .intiro__text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .bolt {
+    background-color: #fff;
+    color: #07af91;
+    display: inline;
+  }
+  .intiro__btn {
+    width: 235px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 400px) {
+  .intiro__title {
+    text-align: center;
+    width: 348px;
+    font-size: 34px;
+  }
+  .intiro__text{
+    text-align: center;
+  }
+}
